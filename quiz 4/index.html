@@ -1,0 +1,184 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial--scale=1.0">
+	<meta http-equiv="X-UA-compatible" content="ie=edge">
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<link rel="stylesheet" href="css/responsiveslides.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<script src="js/responsiveslides.min.js"></script>
+	<title>Group Website</title>
+		<!-- $(function () {
+
+			//slideshow 1
+
+		}) -->
+	</head>
+	<body>
+		<div class="container">
+			
+				<div class="nav-bar">
+					 <ul>
+						 <li> <a id="1">Home</a></li>
+						 <li> <a href="#theteam">The Team</a></li>
+						 <li> <a href="#work">work</a></li>
+						 <li> <a href="#Service">Service</a></li>
+						 <li> <a href ="#contact">contact</a></li>
+
+					 </ul>
+				</div>
+
+			</div>
+<!-- ======================================================================  -->
+		<div class="wrapper">
+			<div id="home1" class="logo">
+				<img src="image/gauge.jpg" alt="img">
+			</div>
+
+		</div>
+	<!-- ======================================================================  -->
+	<!-- <div id="theteam"> -->
+		<div class="wrapper">
+			<div id="home2" class="heading1">
+				<h1>The Team</h1>
+			</div>
+			<!-- -------------------------------------------- -->
+			<div class="about-data">
+				<img src="image/red.jpg" alt="rose">
+				<p>cJKSdhSAKJzm</p>
+			</div>
+
+			<div class="about-data">
+				<img src="image/pink.JPG" alt="rose">
+				
+			</div>
+
+			<div class="about-data">
+				<img src="image/yellow.jpg" alt="rose">
+				
+				
+			</div>
+			
+
+			<div class="about-data-2">
+				<!-- <p>2164687214131641691685321.34</p> -->
+			</div>
+			
+		</div>
+	</div>
+			<!-- ======================================================================  -->
+			<div id="work">
+		<div class="clear"></div>
+			<div class="wrapper">
+			<div id="home3" class="heading1">
+				<h1>Work</h1>
+			</div>
+			<div class="work-data">
+				<div class="work-data-1">
+					<img src="image/yellow.jpg" alt="">
+				</div>
+				<div class="work-data-1">
+						<img src="image/pink.JPG" alt="">
+					</div>
+			</div>
+			
+		</div>
+	</div>
+					<!-- ======================================================================  -->
+					<div id="Service">
+		<div class="wrapper">
+			<div id="home4" class="heading1">
+					<h1>Service</h1>
+			</div>
+			<div class="Service-hedaing">
+				<h3>Website Dynamic And Static Responsive</h3>
+			</div>
+			<div class="Service-data">
+				<div class="Service-img">
+					<img src="image/pink.JPG" alt="rose">
+				</div>
+				<div class="Service-img">
+						<img src="image/yellow.jpg" alt="rose">
+					</div>
+					<div class="Service-img">
+							<img src="image/pink.JPG" alt="rose">
+						</div>
+						<div class="Service-img">
+								<img src="image/yellow.jpg" alt="rose">
+							</div>
+			</div>
+
+		</div>
+		</div>
+		<div class="clear"></div>
+		<!-- ======================================================================  -->
+		<div id="contact">
+		<!-- <div class="wrapper"> -->
+			
+			
+			
+				<div id="home5" class="heading1">
+						<h1>Contact</h1>
+				</div>
+				<div class="Contact-data">
+					<div class="Contact-data-1">
+						<i class="fa fa-location-arrow"></i>
+						<h3>Taspyn,  Milly, Wambui, Ngwiri, From Gachie</h3>
+  					</div>
+						<div class="Contact-data-1">
+							<i class="fa fa-location-arrow"></i>
+							<h3>Taspyn,  Milly, Wambui, Ngwiri, From Gachie</h3>
+						</div>
+							<div class="Contact-data-1">
+								<i class="fa fa-location-arrow"></i>
+								<h3>Taspyn,  Milly, Wambui, From Gachie</h3>
+							</div>
+							
+							
+				</div>
+		<!-- </div> -->
+		
+		
+	</div>
+	<div class="footer">
+			
+		<h3>copyright @upishiAssured.co.ke-All Rights Reserved</h3>
+	
+</div>
+
+		<div class="clear"></div>
+	<!-- ======================================================================  -->
+	
+		<div class="footer">
+			
+				<h3>copyright @upishiAssured.co.ke-All Rights Reserved</h3>
+			
+		</div>
+	
+	
+	
+	
+	</div>
+	<script>
+	$(document).ready(function(){
+		$(".nav-bar ul li a").click(function(){
+			var id = this.id;
+			$("html,body").animate({
+				scrollTop:$('#home' + id ).offset().top
+			},1200);
+		});
+	});
+	
+	
+	</script>
+      </body>
+	</html>
+
+	
+	
+

@@ -1,0 +1,216 @@
+/* ---------------------------------------------------------------------------------------- */
+body{
+	width: 100%;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ------------------------------------------------------------------------------------- */
+.container{
+	width: 100%;
+	background-color: #2e3192;
+	height: 20px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+/* -------------------------------------------------------------------------------- */
+
+.clear{
+	clear: both;
+}
+.nav-bar{
+	width: 100%;
+	height: 50px;
+}
+
+
+.nav-bar > ul{
+	text-align: right;
+}
+
+.nav-bar > ul > li {
+	width: 150px;
+	line-height: 2em;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.nav-bar >ul >li > a{
+	text-decoration: none;
+	color: #ef4136;
+	display: block;
+	border-right: 2px solid red
+}
+.nav-bar >ul >li > a :last-child{
+	border-right: none;
+}
+.nav-bar >ul >li > a:hover{
+	box-shadow: 0px 0px 5px 5px rgba(20, 0, 0,0.103); 
+	transition: 1s;
+}
+.logo img{
+	width: 50px;
+	height: 50px;
+	position: relative;
+	bottom: 55px;
+	left: 20px;
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+.sub-nav{
+	width: 100%;
+	height: 10px;
+	background-color: #2e3192;
+}
+
+/* =------------------------------------------------------------------------------------------------------------- */
+
+.wrapper{
+	width: 100%;
+	background:#ccc url(../image/12.jpg) no-repeat;
+	background-size: cover;
+	
+		
+
+}
+/* ----------------------------------------------------------------------------------------------------------------------- */
+.image{
+	width: 100%;
+	margin: 0 auto;
+}
+.cook{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	padding: 20% 0 0 0;
+	margin:0;
+	font-size: 4em;
+	
+	/*position: relative;
+	bottom: 300px;
+	letter-spacing: 10px;*/
+}
+
+.wrapper-data{
+	
+}
+.wrapper-data p{
+	text-align: center;
+	color: white;
+	padding:0 0 20% 0;
+	font-size: 1.5em;
+	margin:0;
+	/*position: relative;
+	bottom: 295px;*/
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+.services{
+	width: 100%;
+	background-color: #2e3192;
+}
+.services-data h3{
+	text-align: center;
+	color: white;
+	position: relative;
+	padding: 50px 0 50px 0;	
+	margin:0px
+}
+
+.services-data p{
+	text-align: center;
+	color: white;
+	position: relative;
+	padding-bottom: 20px;
+	
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.team{
+	width: 100%
+}
+
+.about-data{
+	width: 25%;
+	margin: 0 auto;
+	float: left;
+	margin: 25px;
+	position: relative;
+	left: 100px;
+
+}
+
+.about-data img{
+	width: 100%; 
+	max-height: 350px;
+	border-radius: 150px;
+	transition: 1s;
+	box-shadow: 0px 0px 2px 2px rgba(20, 0, 0,0.103);
+
+}
+.about-data p{
+	position: relative;
+	left: 80px;
+}
+.about-data h5{
+	position: relative;
+	left: 100px;
+}
+.heading1{
+	text-align: center;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+.contact{
+	width: 100%;
+}
+
+.contact p{
+	text-align: center;
+}
+.contactform{
+	background-color: #ef4136;
+	width: 100%;
+	height: 50px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color:  #2e3192;
+}
+
+.footer p{
+	text-align: center;
+	color: white;
+	line-height: 3em;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+.button{
+	width: 100%;
+	height: 100px;
+}
+#myBtn{
+	display: none; 
+    position: fixed; 
+    bottom: 40px; 
+    right: 50px; 
+    z-index: 99; 
+    border: none; 
+    outline: none;
+    background-color: red; 
+    color: white; 
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px; 
+}
+#myBtn:hover {
+    background-color: #555;
+}
+/* ---------------------------------------------------------------------------------------------------------- */
